@@ -1,10 +1,12 @@
 {
-    "name": "Panquad Transmitter",
+    "name": "Panquad-Kitronik-Main",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-kitronik-I2C-16-servo": "github:kitronikltd/pxt-kitronik-i2c-16-servo#v0.9.2",
+        "MakerBit-Ultrasonic": "github:1010technologies/pxt-makerbit-ultrasonic#v1.0.8"
     },
     "files": [
         "main.blocks",
